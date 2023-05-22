@@ -1,18 +1,75 @@
-# Vue 3 + TypeScript + Vite
+# 🎯**Etapa Técnica - Murallis**
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Sobre
 
-## Recommended IDE Setup
+Esse desafio faz parte da Etapa Técnica da Murallis, no qual foi proposto a criação de um formulario.
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+[Conheça a Muralis](https://muralis.com.br/)
 
-## Type Support For `.vue` Imports in TS
+## Acesse o Projeto
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+[Deploy da Vercel](https://desafio-vue-js.vercel.app)
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+## Objetivo
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+O desafio tem por objetivo medir as capacidades técnicas, como por exemplo, ter a capacidade de interpretar um leiaute e criar os componentes utilizando Vue, assim preenchendo os requisitos front-end propostos.
+
+## Requisitos
+
+**Criar um cadastro de ingressantes:**
+
+- Criar 4 campos: Nome, Curso, Estado e Cidade
+- a cidade deverá ser mostrada, conforme o estado.
+
+# 🚀**Inicialização**
+
+## Rodando localmente
+
+Clone o projeto
+
+```bash
+  git clone git@github.com:Henriquesoto92/Desafio-Vue.Js.git
+```
+
+Entre no diretório do projeto
+
+```bash
+  cd Desafio-Vue.Js
+```
+
+Instale as dependências e inicie a Aplicação
+
+yarn:
+
+```bash
+  yarn
+  yarn dev
+```
+
+npm:
+
+```bash
+  npm i
+  npm run dev
+```
+
+# 🛠**Stack utilizada**
+
+**Front-end:**
+
+- [vue.js](https://vuejs.org/)
+
+- [Tailwindcss](https://tailwindcss.com/)
+
+**LICENSE**
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+# 👨‍💻**desenvolvido por**
+
+[Henrique Soto](https://github.com/Henriquesoto92)
+[![MIT License](https://img.shields.io/github/followers/Henriquesoto92?style=social)](https://github.com/Henriquesoto92)
+
+## 📸Screenshot
+
+![imagem do Cadastro](https://user-images.githubusercontent.com/96528794/239803369-df5de9b7-501f-4c50-aa75-1e8fee3fbf20.png)
